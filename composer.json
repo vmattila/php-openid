@@ -1,0 +1,19 @@
+{
+    "name": "openid/php-openid",
+    "type": "library",
+    "description": "OpenID Library for PHP",
+    "keywords": ["authentication","openid"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "JanRain, Inc"
+        }
+    ],
+    "require": {
+        "php": ">=4.3.0"
+    },
+    "autoload": {
+        "classmap": ["Auth/"]
+    },
+    "include-path": ["./"]
+}
